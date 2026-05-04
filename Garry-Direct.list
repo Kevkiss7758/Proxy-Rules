@@ -18,14 +18,7 @@ DOMAIN-SUFFIX,asusrouter.com
 
 
 # =========================
-# 2. Emby 相关直连
-# =========================
-
-DOMAIN,precdns.cn2gias.uk
-
-
-# =========================
-# 3. 国内服务 / 明确直连
+# 2. 国内服务 / 明确直连
 # =========================
 
 DOMAIN-KEYWORD,migu
@@ -34,7 +27,7 @@ DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-SUFFIX,doh.pub
 
 # =========================
-# 4. 密码管理
+# 3. 密码管理
 # =========================
 
 DOMAIN-KEYWORD,bitwarden
