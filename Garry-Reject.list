@@ -1,1 +1,82 @@
+# ============================================================
+# Garry 自定义 REJECT 规则集 0504
+# ============================================================
+# 用途：
+# 1. 收纳个人确认的高置信广告 / 跟踪 / 遥测 / 风险域名。
+# 2. 避免 Egern 主配置中堆积大量零散自定义规则。
+# 3. 主配置只负责引用，本文件负责维护具体域名。
+#
+# 维护原则：
+# 1. 能精确匹配就不用大范围后缀。
+# 2. 不轻易拦截大厂主域名。
+# 3. 不确定的域名不收录。
+# ============================================================
 
+
+# =========================
+# 1. 风险 CDN / 供应链污染历史域名
+# =========================
+
+DOMAIN-SUFFIX,polyfill.io
+DOMAIN-SUFFIX,polyfill.com
+
+
+# =========================
+# 2. 广告联盟 / 再营销 / DMP
+# =========================
+
+DOMAIN-SUFFIX,criteo.com
+DOMAIN,msft-ssp.adnxs.com
+DOMAIN,skan.singular.net
+
+
+# =========================
+# 3. 什么值得买
+# =========================
+
+DOMAIN,analytics-api.smzdm.com
+
+
+# =========================
+# 4. Day One / Superwall 订阅墙与收入分析
+# =========================
+
+DOMAIN,enrichment-api.superwall.com
+DOMAIN,api.superwall.me
+DOMAIN,subscriptions-api.superwall.com
+
+
+# =========================
+# 5. Dyson / Forsta Confirmit 数字反馈
+# =========================
+
+DOMAIN,digitalfeedback.euro.confirmit.com
+
+
+# =========================
+# 6. iHerb / Optimizely A/B 测试与事件上报
+# =========================
+
+DOMAIN,logx.optimizely.com
+
+
+# =========================
+# 7. 西门子晶御智能 / Adobe 体验分析
+# =========================
+
+DOMAIN,bshg.data.adobedc.net
+DOMAIN,dpm.demdex.net
+
+
+# =========================
+# 8. Segment 用户行为分析
+# =========================
+
+DOMAIN,api.segment.io
+
+
+# =========================
+# 9. New Relic 监控 / 性能统计
+# =========================
+
+DOMAIN-SUFFIX,newrelic.com
