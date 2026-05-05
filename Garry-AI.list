@@ -1,18 +1,32 @@
 # ============================================================
-# Garry 自定义 AI 规则集 0504
+# Garry 自定义 AI 规则集 0505
 # ============================================================
 # 用途：
-# 1. 收纳第三方 AI 规则集可能漏掉的 OpenAI / ChatGPT 相关域名。
-# 2. 确保 AI 内容资源固定进入 AI 服务策略组。
-# 3. 不重复收录规则集已稳定覆盖的通用 AI 域名。
+# 1. 只收纳公共 AI 规则未稳定覆盖的补充域名。
+# 2. ChatGPT / Gemini / Claude 相关流量固定进入 AI 服务。
+# 3. 公共规则已覆盖的主域名原则上不重复收录。
 # ============================================================
 
 
 # =========================
-# 1. OpenAI / ChatGPT 内容资源
+# 1. ChatGPT / OpenAI 补漏
 # =========================
 
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+
+
+# =========================
+# 2. Claude / Anthropic 补漏
+# =========================
+
+DOMAIN-SUFFIX,claudeusercontent.com
+
+
+# =========================
+# 3. Gemini / Google AI 补漏
+# =========================
+# 当前公共 AI 规则已覆盖 Gemini / AI Studio / NotebookLM / Jules / Antigravity。
+# 暂无必须补充项。
