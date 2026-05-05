@@ -41,8 +41,8 @@ DOMAIN,analytics-api.smzdm.com
 # 4. Day One / Superwall 订阅墙与收入分析
 # =========================
 
-DOMAIN,enrichment-api.superwall.com
-DOMAIN,api.superwall.me
+DOMAIN-SUFFIX,superwall.com
+DOMAIN-SUFFIX,superwall.me
 DOMAIN,subscriptions-api.superwall.com
 
 
