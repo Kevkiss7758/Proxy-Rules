@@ -41,7 +41,7 @@ DOMAIN-SUFFIX,rc-backup.com
 # =========================
 # 3. 密码管理
 # =========================
-DOMAIN-KEYWORD,bitwarden
+DOMAIN-SUFFIX,bitwarden.com
 
 # =========================
 # 4. 代理工具自身服务授权
