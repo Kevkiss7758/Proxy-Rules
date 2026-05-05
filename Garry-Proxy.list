@@ -20,16 +20,23 @@ DOMAIN-SUFFIX,haoya.io
 # =========================
 IP-CIDR,8.8.8.8/32,no-resolve
 
+# =========================
+# 4. 跨国支付网关与反欺诈风控
+# =========================
+# 备注：保障海外内购、绑卡环境的 IP 一致性，防止触发风控锁号或阻断。
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,perimeterx.net
+
 
 # =========================
-# 3. Nvidia / 特殊服务
+# 4. Nvidia / 特殊服务
 # =========================
 
 DOMAIN,faka.nvidia.rip
 
 
 # =========================
-# 4. 软件 / 工具 / 下载
+# 5. 软件 / 工具 / 下载
 # =========================
 
 DOMAIN-SUFFIX,hibitsoft.ir
@@ -38,7 +45,7 @@ DOMAIN,whatshub.top
 
 
 # =========================
-# 5. 媒体 / 影视 / 观影记录
+# 6. 媒体 / 影视 / 观影记录
 # =========================
 
 DOMAIN-SUFFIX,missav.ai
@@ -46,7 +53,7 @@ DOMAIN-SUFFIX,trakt.tv
 
 
 # =========================
-# 6. 空气质量 / 境外服务
+# 7. 空气质量 / 境外服务
 # =========================
 
 DOMAIN-SUFFIX,airvisual.com
