@@ -15,6 +15,9 @@ IP-CIDR,192.168.50.1/32,no-resolve
 DOMAIN,router.asus.com
 DOMAIN-SUFFIX,asusrouter.com
 
+# 华硕路由器固件及特征库下载 CDN
+DOMAIN,nw-dlcdnet.asus.com
+
 # 本地虚拟网卡与云服务底层隧道 (防代理绕行产生极高延迟)
 IP-CIDR,172.1.0.0/16,no-resolve
 IP-CIDR,30.128.0.0/9,no-resolve
