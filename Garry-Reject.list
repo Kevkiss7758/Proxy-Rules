@@ -51,7 +51,11 @@ DOMAIN,subscriptions-api.superwall.com
 # =========================
 
 DOMAIN,digitalfeedback.euro.confirmit.com
+# =========================
+# 5. Forsta Confirmit 数字反馈
+# =========================
 
+DOMAIN-SUFFIX,euro.confirmit.com
 
 # =========================
 # 6. iHerb / Optimizely A/B 测试与事件上报
