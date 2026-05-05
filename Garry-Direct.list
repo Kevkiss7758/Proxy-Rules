@@ -25,6 +25,7 @@ DOMAIN-KEYWORD,migu
 DOMAIN-KEYWORD,iherb
 DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-SUFFIX,doh.pub
+DOMAIN-SUFFIX,airchina.com.cn,DIRECT
 
 # =========================
 # 3. 密码管理
@@ -33,8 +34,5 @@ DOMAIN-SUFFIX,doh.pub
 DOMAIN-KEYWORD,bitwarden
 
 
-# =========================
-# 4. 工作/国航
-# =========================
-DOMAIN-SUFFIX,airchina.com.cn,DIRECT
+
 
