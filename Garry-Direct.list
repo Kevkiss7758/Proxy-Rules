@@ -7,32 +7,33 @@
 # 3. 不确定是否直连的域名不收录。
 # ============================================================
 
-
 # =========================
-# 1. 路由器 / 内网
+# 1. 路由器 / 局域网 / 底层网络
 # =========================
-
+# 华硕路由器网关
 IP-CIDR,192.168.50.1/32,no-resolve
 DOMAIN,router.asus.com
 DOMAIN-SUFFIX,asusrouter.com
 
+# 本地虚拟网卡与云服务底层隧道 (防代理绕行产生极高延迟)
+IP-CIDR,172.1.0.0/16,no-resolve
+IP-CIDR,30.128.0.0/9,no-resolve
 
 # =========================
 # 2. 国内服务 / 明确直连
 # =========================
-
 DOMAIN-KEYWORD,migu
 DOMAIN-KEYWORD,iherb
 DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-SUFFIX,doh.pub
+
+# 航司官方应用与服务接口
 DOMAIN-SUFFIX,airchina.com.cn
+
+# RevenueCat 内购订阅验证 (国内备用防风控直连)
+DOMAIN-SUFFIX,rc-backup.com
 
 # =========================
 # 3. 密码管理
 # =========================
-
 DOMAIN-KEYWORD,bitwarden
-
-
-
-
