@@ -38,13 +38,9 @@ DOMAIN-SUFFIX,airchina.com.cn
 # RevenueCat 内购订阅验证 (国内备用防风控直连)
 DOMAIN-SUFFIX,rc-backup.com
 
-# =========================
-# 3. 密码管理
-# =========================
-DOMAIN-SUFFIX,bitwarden.com
 
 # =========================
-# 4. 代理工具自身服务授权
+# 3. 代理工具自身服务授权
 # =========================
 DOMAIN-SUFFIX,egernlicense.com
 
