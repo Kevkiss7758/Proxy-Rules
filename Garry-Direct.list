@@ -31,3 +31,10 @@ DOMAIN-SUFFIX,doh.pub
 # =========================
 
 DOMAIN-KEYWORD,bitwarden
+
+
+# =========================
+# 4. 工作/国航
+# =========================
+DOMAIN-SUFFIX,airchina.com.cn,DIRECT
+
