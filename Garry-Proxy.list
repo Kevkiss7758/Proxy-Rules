@@ -88,3 +88,13 @@ DOMAIN-SUFFIX,trakt.tv
 # =========================
 
 DOMAIN-SUFFIX,airvisual.com
+
+# =========================
+# 9. 规则集 / 配置资源下载
+# =========================
+# 备注：
+# - rule.kelee.one 用于下载 Clash / Loon / Egern 等公共远程规则集。
+# - 国内网络环境下可能连接不稳定，建议固定走国际流量。
+# - 避免落入漏网之鱼后随手动策略变化影响规则集更新。
+
+DOMAIN-SUFFIX,rule.kelee.one
