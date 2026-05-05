@@ -12,4 +12,7 @@
 # 1. OpenAI / ChatGPT 内容资源
 # =========================
 
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
