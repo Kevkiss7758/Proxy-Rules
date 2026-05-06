@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,dayone.app
 DOMAIN-SUFFIX,dayone.me
 
 # 航司官方应用与服务接口
+DOMAIN-KEYWORD,airchina
 DOMAIN-SUFFIX,airchina.com.cn
 
 # RevenueCat 内购订阅验证 (国内备用防风控直连)
