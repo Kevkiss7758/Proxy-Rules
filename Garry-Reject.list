@@ -1,6 +1,8 @@
 # ============================================================
-# Garry 自定义 REJECT 规则集 0505
+# Garry 自定义 REJECT 规则集
 # ============================================================
+# 最近维护时间：2026-05-08
+#
 # 用途：
 # 1. 收纳个人确认的高置信广告 / 跟踪 / 遥测 / 风险域名。
 # 2. 避免 Egern 主配置中堆积大量零散自定义规则。
@@ -29,6 +31,7 @@ DOMAIN-SUFFIX,criteo.com
 DOMAIN,msft-ssp.adnxs.com
 DOMAIN,skan.singular.net
 DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,emltrk.com
 
 
 # =========================
