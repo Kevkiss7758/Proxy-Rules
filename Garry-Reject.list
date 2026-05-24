@@ -96,3 +96,8 @@ DOMAIN-SUFFIX,2q10.com
 
 IP-CIDR,144.144.144.144/32,no-resolve
 
+# =========================
+# 12. AppsFlyer 归因与数据追踪
+# =========================
+DOMAIN-SUFFIX,appsflyer.com
+
