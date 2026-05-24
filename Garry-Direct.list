@@ -39,9 +39,10 @@ DOMAIN-SUFFIX,airchina.com.cn
 # RevenueCat 内购订阅验证 (国内备用防风控直连)
 DOMAIN-SUFFIX,rc-backup.com
 
+# 腾讯 QQ 本地局域网通信 (防局域网功能失效/绕行降速)
+DOMAIN,wwlocal.qq.com
 
 # =========================
 # 3. 代理工具自身服务授权
 # =========================
 DOMAIN-SUFFIX,egernlicense.com
-
