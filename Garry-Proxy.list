@@ -100,9 +100,9 @@ DOMAIN-SUFFIX,ddgksf2013.top
 # 10. 规则集 / 配置资源下载
 # =========================
 # 备注：
-# - rule.kelee.one 与 yfamilys.com 用于下载代理工具的公共远程规则集及插件配置。
+# - kelee.one 与 yfamilys.com 用于下载代理工具的公共远程规则集及插件配置。
 # - 国内网络环境下连接不稳定且容易遭阻断，建议固定走国际流量。
 # - 避免落入漏网之鱼后随手动策略变化影响规则集或插件的后台静默更新。
 
-DOMAIN-SUFFIX,rule.kelee.one
+DOMAIN-SUFFIX,kelee.one
 DOMAIN-SUFFIX,yfamilys.com
