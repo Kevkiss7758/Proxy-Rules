@@ -18,10 +18,6 @@ DOMAIN-SUFFIX,asusrouter.com
 # 华硕路由器固件及特征库下载 CDN
 DOMAIN,nw-dlcdnet.asus.com
 
-# 本地虚拟网卡与云服务底层隧道 (防代理绕行产生极高延迟)
-IP-CIDR,172.1.0.0/16,no-resolve
-IP-CIDR,30.128.0.0/9,no-resolve
-
 # =========================
 # 2. 国内服务 / 明确直连
 # =========================
