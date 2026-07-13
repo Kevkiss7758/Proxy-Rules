@@ -1,44 +1,50 @@
 # ============================================================
-# Garry 自定义 DIRECT 规则集 0524
+# Garry 自定义 DIRECT 规则集
 # ============================================================
+# 当前版本：v1.0
+# 维护日期：2026-07-13
+#
 # 用途：
-# 1. 收纳个人确认必须直连的域名 / IP。
-# 2. 主要用于路由器、内网、本地服务、国内特殊服务。
-# 3. 不确定是否直连的域名不收录。
+# 收纳必须优先直连的本地服务、基础网络及个人例外。
+#
+# 维护原则：
+# 只保留用途明确、确有必要提前直连的规则；普通国内服务交给公共规则处理。
+#
+# 维护记录：
+# - v1.0：重建最小直连基线，删除公共规则可处理、来源不明或非必要的规则。
 # ============================================================
 
+
 # =========================
-# 1. 路由器 / 局域网 / 底层网络
+# 1. 路由器与局域网
 # =========================
-# 华硕路由器网关
+
+# 华硕路由器后台
 IP-CIDR,192.168.50.1/32,no-resolve
 DOMAIN,router.asus.com
 DOMAIN-SUFFIX,asusrouter.com
 
-# 华硕路由器固件及特征库下载 CDN
+# 华硕固件及特征库下载
 DOMAIN,nw-dlcdnet.asus.com
 
-# =========================
-# 2. 国内服务 / 明确直连
-# =========================
-DOMAIN-KEYWORD,migu
-DOMAIN-KEYWORD,iherb
-DOMAIN-SUFFIX,oyunfor.com
-DOMAIN-SUFFIX,doh.pub
-DOMAIN-SUFFIX,dayone.app
-DOMAIN-SUFFIX,dayone.me
-
-# 航司官方应用与服务接口
-DOMAIN-KEYWORD,airchina
-DOMAIN-SUFFIX,airchina.com.cn
-
-# RevenueCat 内购订阅验证 (国内备用防风控直连)
-DOMAIN-SUFFIX,rc-backup.com
-
-# 腾讯 QQ 本地局域网通信 (防局域网功能失效/绕行降速)
+# QQ局域网通信
 DOMAIN,wwlocal.qq.com
 
+
 # =========================
-# 3. 代理工具自身服务授权
+# 2. 基础网络服务
 # =========================
+
+# 当前配置使用的腾讯DoH
+DOMAIN-SUFFIX,doh.pub
+
+
+# =========================
+# 3. 国内连接与授权
+# =========================
+
+# RevenueCat中国大陆备用API
+DOMAIN-SUFFIX,rc-backup.com
+
+# Egern授权服务
 DOMAIN-SUFFIX,egernlicense.com
