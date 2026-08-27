@@ -53,7 +53,6 @@ DOMAIN-SUFFIX,egernlicense.com
 # =========================
 
 # Bitwarden密码管理器
-# 代理链路下Edge浏览器扩展曾出现无法响应；直连恢复正常
 DOMAIN,api.bitwarden.com
 DOMAIN,identity.bitwarden.com
 DOMAIN,notifications.bitwarden.com
