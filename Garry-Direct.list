@@ -59,7 +59,6 @@ DOMAIN,identity.bitwarden.com
 DOMAIN,notifications.bitwarden.com
 
 # iHerb中国区网站及相关业务服务
-# 解决iHerb主站、结算、商品目录和图片域名被最终Match误送代理的问题
 DOMAIN-SUFFIX,iherb.com
 DOMAIN-SUFFIX,iherb.cn
 DOMAIN-SUFFIX,images-iherb.com
