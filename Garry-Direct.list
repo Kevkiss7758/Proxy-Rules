@@ -1,8 +1,8 @@
 # ============================================================
 # Garry 自定义 DIRECT 规则集
 # ============================================================
-# 当前版本：v1.2
-# 维护日期：2026-08-07
+# 当前版本：v1.3
+# 维护日期：2026-08-27
 #
 # 用途：
 # 收纳必须优先直连的本地服务、基础网络及个人例外。
@@ -57,6 +57,13 @@ DOMAIN-SUFFIX,egernlicense.com
 DOMAIN,api.bitwarden.com
 DOMAIN,identity.bitwarden.com
 DOMAIN,notifications.bitwarden.com
+
+# iHerb中国区网站及相关业务服务
+# 解决iHerb主站、结算、商品目录和图片域名被最终Match误送代理的问题
+DOMAIN-SUFFIX,iherb.com
+DOMAIN-SUFFIX,iherb.cn
+DOMAIN-SUFFIX,images-iherb.com
+DOMAIN-SUFFIX,iherbtest.com
 
 
 # =========================
