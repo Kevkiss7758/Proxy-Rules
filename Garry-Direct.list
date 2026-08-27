@@ -68,6 +68,5 @@ DOMAIN-SUFFIX,iherbtest.com
 # 5. 智能家居与物联网
 # =========================
 
-# HP净水器等国内设备后端（微软Azure中国区）
-# 解决被误判为微软海外服务导致连接超时或拒绝访问的问题
+# 净水器等国内设备后端（微软Azure中国区）
 DOMAIN-SUFFIX,chinacloudapi.cn
